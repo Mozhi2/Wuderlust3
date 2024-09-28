@@ -325,11 +325,11 @@ h1{
   
   p{
     line-height: 1.35;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0.5rem 0;
     margin: 0 auto;
     text-align: left;
-    font: "sans-serif"
+    font: "sans-serif";
     
   }
 
