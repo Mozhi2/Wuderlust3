@@ -229,15 +229,13 @@ body{
   /* ----- HEADER STYLES ----- */
 
 
-    header {
+    header{
         background-image: linear-gradient(var(--teal), var(--white));
         color: var(--black);
         display: grid;
-        grid-template-columns: repeat( 1fr, 2fr);
-        width: calc(100% - 2rem);
         margin: 0 auto;
         grid-gap: 0.5rem;
-        align-items: left;
+       
 
   }
 
@@ -245,7 +243,7 @@ body{
   #logo{
     height: 100%;
     width: 100%;
-    align-items: left;
+    
   }
 
   /* ----- HEADING STYLES ----- */
