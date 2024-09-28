@@ -234,7 +234,6 @@ body{
         color: var(--black);
         display: grid;
         grid-template-columns: repeat( 1fr, 2fr);
-        padding: 1rem;
         width: calc(100% - 2rem);
         margin: 0 auto;
         grid-gap: 0.5rem;
@@ -246,7 +245,7 @@ body{
   #logo{
     height: 100%;
     width: 100%;
-    padding: 0.5rem;
+    align-items: left;
   }
 
   /* ----- HEADING STYLES ----- */
@@ -278,14 +277,14 @@ h1{
   /* ----- NAVIGATION STYLES ----- */
 
   nav {
-    grid-column-start: 1;
-  grid-column-end: -1;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
   }
 
 
 
   nav a{
-    text-decoration:none;
+  text-decoration:none;
   text-align: center;
   padding: 1rem;
   margin: 1rem 0;
@@ -300,6 +299,10 @@ h1{
 
   nav li {
     list-style:none;
+  }
+
+  #menu-toggle label{
+    display: non;
   }
   
   /* ----- LINK STYLES ----- */
@@ -321,12 +324,25 @@ h1{
   /* ----- TEXT STYLES ----- */
 
 
-
+  
   p{
+    line-height: 1.35;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    text-align: left;
+    font: "sans-serif"
+    
+  }
+
+  header p{
     line-height: 1.35;
     max-width: 75ch;
     padding: 0.5rem 0;
     margin: 0 auto;
+    text-align: left;
+    font: "sans-serif"
+    
   }
 
 
