@@ -232,17 +232,27 @@ body{
     header{
         background-image: linear-gradient(var(--teal), var(--white));
         color: var(--black);
-        display: grid;
         margin: 0 auto;
         grid-gap: 0.5rem;
        
 
   }
+  
+  header p{
+    line-height: 1.35;
+    padding: 0.5rem 0;
+    margin: 10px auto;
+    text-align: left;
+    font: "sans-serif";
+    font-weight: normal;
+  }
+
 
 
   #logo{
     height: 100%;
     width: 100%;
+    margin: 10px auto;
     
   }
 
@@ -333,14 +343,16 @@ h1{
     
   }
 
-  header p{
-    line-height: 1.35;
-    max-width: 75ch;
-    padding: 0.5rem 0;
-    margin: 0 auto;
-    text-align: left;
-    font: "sans-serif"
-    
+  q{
+    font: "sans-serif";
+    display: block;
+    /* Makes the <q> element a block element */
+    width: 300px;
+    /* Set your desired width */
+    margin: 10px auto;
+    /* Center the quote */
+    padding: 10px;
+    text-align: center;
   }
 
 
@@ -351,8 +363,16 @@ h1{
     margin: 1rem auto;
     padding: 1rem;
   }
-  
-  
+
+
+  /* ----- Footer STYLES ----- */
+
+  footer{
+    background-color: var(--blumine);
+    color: var(--white);
+  }
+
+  /* ----- HOVER STYLES ----- */
 
   @media (hover:hover){
   
@@ -362,5 +382,7 @@ h1{
     }
 
   }
+
+
   
   
