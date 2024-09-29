@@ -381,8 +381,8 @@ h1{
   /* ----- Footer STYLES ----- */
 
   footer{
-    background-color: var(--blumine);
-    color: var(--white);
+    background-color: var(--light-gray);
+    color: var(--black);
   }
 
   /* ----- HOVER STYLES ----- */
@@ -681,7 +681,7 @@ h1{
         outline: none;
         border-radius: 0.2em;
         background-color: var(--purple);
-        color: var(--dark-gray);
+        color: var(--light-gray);
     }
 
     
