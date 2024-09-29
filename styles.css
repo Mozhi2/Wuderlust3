@@ -249,10 +249,10 @@ body{
 
 
 
-  #logo{
+  #logo a{
     height: 100%;
     width: 100%;
-    margin: 10px auto;
+    align-items: left;
     
   }
 
@@ -310,7 +310,7 @@ h1{
   }
 
   #menu-toggle label{
-    display: non;
+    display: none;
   }
   
   /* ----- LINK STYLES ----- */
@@ -340,6 +340,7 @@ h1{
     margin: 0 auto;
     text-align: left;
     font: "sans-serif";
+    font-weight: normal;
     
   }
 
@@ -383,6 +384,100 @@ h1{
 
   }
 
+
+
+/* ----- SMALL SCREEN STYLES ----- */
+
+  @media screen and (min-width: 500px){
+
+    header{
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    h2{
+        text-align: left;
+    }
+
+    header p{
+        text-align: left;
+    }
+
+    /*-----HAmburger Menu------*/
+
+    #menu-toggle {
+        position: relative;
+    }
+
+
+    #menu-toggle label{
+        font-size: 30px;
+        position: relative;
+        display: block;
+        font-weight: bold;
+        font: "Molle";
+        cursor: pointer;
+        display: inline-block;
+        padding: 20px;
+        background-color: var(--yellow);
+        text-align: center;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        /* Hide menu by default */
+    }
+
+    input[type="checkbox"]:checked~ul {
+        display: block;
+        /* Show menu when checked */
+    }
+
+    ul li {
+        padding: 10px;
+
+    }
+
+    ul li a {
+        color: var(--black);
+        text-decoration: none;
+        width: 100%;
+    }
+
+    ul li.active a {
+        font-weight: bold;
+        /* Highlight active link */
+    }
+
+    /*-----intro section------*/
+
+    #intro {
+        padding: 20px;
+    }
+
+    #img-grid {
+        display: grid;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    #img-grid img {
+        width: 100%;
+    }
+
+    #img-grid picture {
+        display: grid;
+        height: 100%;
+
+    }
+  }
 
   
   
