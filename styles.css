@@ -714,13 +714,14 @@ h1{
         font: sans-serif;
     }
 
-   
+   }
 
+
+   /* ----- MEDIUM SCREEN STYLES ----- */
+    @media screen and (min-width: 750px){
     
-
-    
-
-  }
-
+        nav{
+            display: flex;
+        }
   
-  
+    }
