@@ -254,8 +254,8 @@ table {
 #email,
 #phone,
 .required:focus {
-    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
-    box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) + 40%), 0.8);
+    border: 2px inset var(--purple);
+	box-shadow: 0 0 0 0.09em currentColor;
 }
 
 #lName,
@@ -288,12 +288,12 @@ input[type="radio"] {
 
     -webkit-appearance: none;
     appearance: none;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 0;
     font: inherit;
     color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
+    width: 1em;
+    height: 1em;
     border: 0.15em solid currentColor;
     border-radius: 50%;
     display: grid;
@@ -306,7 +306,7 @@ input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
-    border-radius: 50%;
+    border-radius: 30%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
