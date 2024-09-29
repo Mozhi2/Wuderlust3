@@ -637,6 +637,10 @@ h1{
         transition: 0.7s;
     }
 
+    #menu-toggle label:hover{
+        background-color: var(--light-pink);
+    }
+
   }
 
 
@@ -1070,6 +1074,11 @@ select{
                 /* Span across both columns */
             }
 
+            footer{
+                display: flex;
+                justify-content: space-evenly;
+            }
+
   
     }
 
@@ -1082,38 +1091,19 @@ select{
      
   
   
+  nav{
+    display: flex;
+  }
+  nav ul{
+    display: flex;
+  }
   
+   nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+   }
+       
   
-        #menu-toggle ul {
-            display: flex;              /* Use Flexbox for the list */
-            justify-content: space-around; /* Distribute space evenly */
-            padding: 0;
-            margin: 0;
-            list-style-type: none;     /* Remove bullet points */
-        }
-        
-        #menu-toggle li {
-            flex: 1;                   /* Each li takes equal space */
-            text-align: center;        /* Center text */
-        }
-        
-        #menu-toggle a {
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 0.25rem;
-            background-color: var(--yellow);
-            text-align: center;
-            padding: 1rem;
-            margin: 1rem 0;
-            display: block;            /* Make the link fill the li */
-            padding: 15px;            /* Add some padding */
-            color: var(--black);             /* Text color */
-            text-decoration: none;     /* Remove underline */
-        }
-        
-        #menu-toggle li.active a {
-            background: var(--orange);         /* Highlight active link */
-        }
 
         #intro{
             display: grid;
@@ -1148,7 +1138,7 @@ select{
 
 
         #plan img {
-            width: 80%;
+            width: 70%;
             height: 200px;
         }
         #testimonials div{
@@ -1169,6 +1159,10 @@ select{
         footer{
             display: flex;
             justify-content: space-evenly ;
+        }
+
+        footer p{
+            text-align: left;
         }
 
     }
