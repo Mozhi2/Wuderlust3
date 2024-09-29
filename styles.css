@@ -243,7 +243,7 @@ body{
     padding: 0.5rem 0;
     margin: 10px auto;
     text-align: center;
-    font: "sans-serif";
+    font: sans-serif;
     font-weight: normal;
   }
 
@@ -344,13 +344,13 @@ h1{
     padding: 0.5rem 0;
     margin: 0 auto;
     text-align: left;
-    font: "sans-serif";
+    font: sans-serif;
     font-weight: normal;
     
   }
 
   q{
-    font: "sans-serif";
+    font: sans-serif;
     font-weight: normal;
     display: block;
     /* Makes the <q> element a block element */
