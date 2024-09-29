@@ -273,12 +273,17 @@ h1{
   }
   
   h3{
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     margin: 0.5rem 0;
   }
   
   h2, h3{
     font-weight: bold;
+    text-align: center;
+  }
+
+  h4{
+    font-size: 1.15rem;
     text-align: center;
   }
 
@@ -346,6 +351,7 @@ h1{
 
   q{
     font: "sans-serif";
+    font-weight: normal;
     display: block;
     /* Makes the <q> element a block element */
     width: 300px;
@@ -479,11 +485,15 @@ h1{
 
     }
 
+    /*-----Plan section------*/
+
+
     #plan {
         background-color: var(--yellow);
     }
 
     #plan div {
+        background-color: var(--yellow);
         display: grid;
         align-items: center;
         padding: 20px;
@@ -517,6 +527,36 @@ h1{
 
         text-align: center;
 
+    }
+
+
+    /*-----Testimonials section------*/
+
+
+    #testimonials p, q{
+        text-align: center;
+    }
+
+
+    /*-----about section------*/
+
+
+    #about p{
+
+        text-align: center;
+    }
+
+    #about {
+        background-color: var(--blue);
+
+    }
+
+    #about div {
+        background-color: var(--blue);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 20px;
     }
 
   }
