@@ -674,11 +674,10 @@ h1{
      nav {
         align-items: center;
         margin: 1rem;
-        padding: 1rem;
      }
     #menu-toggle {
         position: relative;
-        align-items: center;
+        
     }
 
 
