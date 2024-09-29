@@ -155,6 +155,7 @@ table {
     --white: #FFFFFF;
     --black: #000000;
     --orange: #ffa500;
+    --light-pink: #e798dd;
     font-size: 16px;
     --fonts: "Molle", Montserrat, sans-serif;
     --input-border: #8b8a8b;
@@ -388,6 +389,7 @@ h1{
   footer{
     background-color: var(--light-gray);
     color: var(--black);
+    text-align: center;
   }
 
   footer p{
@@ -406,6 +408,11 @@ h1{
     nav a:hover{
       background-color: var(--orange);
       color: var(--black);
+    }
+
+    #mySubmit :hover{
+        background-color: var(--light-pink);
+        transition: 0.7s;
     }
 
   }
@@ -699,7 +706,7 @@ h1{
     }
 
     footer{
-        text-align: center;
+        align-items: center;
     }
 
     footer p, a{
