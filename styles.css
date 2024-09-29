@@ -768,7 +768,7 @@ h1{
         padding: 20px;
         border-width: 4px;
         border-style: solid;
-        border-color: rgb(255, 255, 255);
+        border-color: var(--white);
         border-image: initial;
         border-radius: 8px;
         overflow: hidden;
@@ -824,146 +824,78 @@ h1{
        
     }
    /*---------Form Section--------*/
-
-   #contact{
-    align-items: center;
-   }
-
-   #contact h3{
-    text-align: center;
-   }
-
-
-    form{
-       
-        width: 90%;
-        align-items: center;
-      
-    }
-   
-    input, label{
-        display: block;
-        width: calc(100% - 2em);
-        
-    }
-    
-    input, select{
-        outline: 1px solid #222;
-        border: none;
-        border-radius: 0.2em;
-    }
-    
-    label{
-        font-size: 1.1em;
-        margin: 10px;
-    }
-    
-
-    .form-required{
-        font-weight: normal;
-    }
-
-
-    .required{
-        color: var(--purple);
-    }
-
-     #lName,
-#fName,
-#email,
-#phone input{
-        width: 95%;
-        margin: 0.25em auto 0.5em auto;
-        padding: 0.5em;
-    }
-    
-     #lName,
-#fName,
-#email,
-#phone input:focus, select:focus{
-        border: 2px inset var(--purple);
-        box-shadow: 0 0 0 0.09em currentColor;
-    }
-    
-     #lName,
-#fName,
-#email,
-#phone input:error, select:error{
-        background-color: #c71819;
-    }
-    
-    fieldset{
-        margin: 0.5em auto;
-        padding-bottom: 0.5em;
-        width: 95%;
-        border: 1px solid #222;
-        border-radius: 0.2em;
-        display: grid;
-        grid-template-columns: 30px 1fr 30px 1fr;
-    }
-    
- 
-    fieldset label{
-        display: inline;
-        width: 60%;
-    }
-    
-    fieldset input{
-        display: inline;
-        width: 20px;
-    }
-    
-
-
-    .radio-input {
-    font-family: system-ui, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.1;
-    display: flex;
-    flex-flow: wrap;
-    gap: 0.5em;
+   form-required{
+    font-weight: normal;
 }
 
-input[type="radio"] {
-
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: #fff;
-    margin: 0;
-    font: inherit;
-    color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid currentColor;
-    border-radius: 50%;
+form,
+#mySubmit {
     display: grid;
-    place-content: center;
+    justify-content: center;
+
+}
+
+#contact h3 {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#names label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#names input {
+    width: 100%;
 }
 
 
-input[type="radio"]::before {
-    background-color: CanvasText;
-    content: "";
-    width: 0.65em;
-    height: 0.65em;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--form-control-color);
+#nums legend {
+    font-weight: bold;
 }
 
-input[type="radio"]:checked::before {
-    transform: scale(1);
+#nums,
+#selects label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#nums input {
+    width: 100%;
 }
 
 
-select{
-    display: block;
-    width: 95%;
-    margin: 0.25em auto 0.5em auto;
-    padding: 0.5em;
-    font-size: 1em;
+
+.radio-label {
+    font-weight: normal;
+    display: flex;
+
+}
+
+
+input,
+select {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+#nums label {
+    display: flex;
+    margin-top: 8px;
+}
+
+#mySubmit {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -1137,9 +1069,9 @@ select{
         }
 
 
-        #plan img {
-            width: 70%;
-            height: 200px;
+        #plan div {
+            display: flex;
+            justify-content: space-evenly;
         }
         #testimonials div{
             display: flex;
