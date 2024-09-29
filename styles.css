@@ -367,8 +367,7 @@ h1{
   main{
     width: calc(100% - 2rem);
     max-width: 1100px;
-    margin: 1rem auto;
-    padding: 1rem;
+    
   }
 
 
@@ -572,6 +571,12 @@ h1{
         padding: 20px;
     }
    /*---------Form Section--------*/
+
+   #contact h3{
+    text-align: center;
+   }
+
+
     form{
         display: grid;
         width: 90%;
@@ -638,6 +643,40 @@ h1{
     fieldset input{
         display: inline;
         width: 20px;
+    }
+    
+
+    select{
+        display: block;
+        width: 95%;
+        margin: 0.25em auto 0.5em auto;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+    
+
+    input[type="radio"]{
+        margin-top: 0.4em;
+        outline: none;
+        border: 1px solid #222;
+        border-radius: 25%;
+    }
+    
+    input[type="submit"]{
+        font-size: 1.2em;
+        width: 95%;
+        margin-top: 1em;
+        padding: 0.5em;
+        border: none;
+        outline: none;
+        border-radius: 0.2em;
+        background-color: var(--purple);
+        color: white;
+    }
+    
+    input[type="submit"]:hover, input[type="submit"]:focus{
+        background-color: var(--purple);
+        filter: drop-shadow(8px 8px 4px #777);
     }
     
     
