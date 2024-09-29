@@ -834,12 +834,12 @@ h1{
             text-align: center;
         }
 
-        #testimonilas div{
+        #testimonials div{
             display: flex;
             justify-content: space-evenly;
         }
 
-        #plan{
+        #plan div{
             display: flex;
             justify-content: space-evenly
         }
