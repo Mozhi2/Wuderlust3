@@ -1127,6 +1127,11 @@ select {
     grid-column: 2 / span 2;
    }
 
+   #img-grid img{
+    width: 50%;
+    height: auto;
+   }
+
 
    
 
