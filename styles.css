@@ -149,7 +149,7 @@ table {
     --yellow: #F6D64A;
     --purple: #9B26B0;
     --teal: #55BCD5;
-    --blue: #1468a0;
+    --blue: #499BD2;
     --light-blue: #5959a9;
     --dark-gray: #222222;
     --light-gray: #EAEAEA;
@@ -1100,6 +1100,8 @@ select {
 
         #intro{
             display: grid;
+            margin: 0.5rem auto;
+            padding: 0.5rem;
         
         }
 
@@ -1156,7 +1158,8 @@ select {
 
         .form-required{
             font-weight: normal;
-            color:var(--purple)
+            font: "Montserrat";
+           
         }
     
     
