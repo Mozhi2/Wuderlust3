@@ -944,12 +944,12 @@ select {
 
           nav{
             display: flex;
-            justify-content: space-evenly;
-            gap: 0.5rem;
+            justify-content: space-between;
+           
           }
           nav ul{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
           }
 
           nav li {
@@ -960,7 +960,7 @@ select {
           
            nav ul li{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             margin: 10px 0;
            }
 
@@ -969,7 +969,7 @@ select {
         
            nav a {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
         }
 
         
