@@ -616,12 +616,11 @@ h1{
   footer p{
     font: sans-serif;
     text-align: center;
+    font-size: 1rem;
   }
 
   footer a{
-    text-decoration: none;
-    color: var(--black);
-  }
+    text-decoration: none;}
 
   /* ----- HOVER STYLES ----- */
 
@@ -633,12 +632,12 @@ h1{
     }
 
     #mySubmit:hover{
-        background-color: var(--light-pink);
+        background-color: var(--blue);
         transition: 0.7s;
     }
 
     #menu-toggle label:hover{
-        background-color: var(--light-pink);
+        background-color: var(--teal);
     }
 
   }
@@ -682,6 +681,9 @@ h1{
         padding: 20px;
         background-color: var(--yellow);
         text-align: center;
+        margin: 1rem auto;
+        padding: 1rem;
+
     }
 
     input[type="checkbox"] {
@@ -741,7 +743,7 @@ h1{
 
     #img-grid picture {
         display: grid;
-        height: 70%;
+        height: 80%;
 
     }
 
@@ -895,7 +897,7 @@ select {
     color: var(--white);
     font-size: 20px;
     align-items: center;
-    text-align: center;
+   
 }
 
 
@@ -909,6 +911,7 @@ select {
     footer p{
         font: "sans-serif";
         text-align: center;
+        font-size: 1rem;
     }
 
     footer a{
@@ -1006,6 +1009,57 @@ select {
                 /* Span across both columns */
             }
 
+            orm {
+                display: grid;
+                align-items: center;
+        
+            }
+        
+            #names {
+                display: grid;
+        
+            }
+        
+            #names input {
+                width: 100%;
+            }
+        
+            #nums {
+                display: grid;
+            }
+        
+        
+        
+        
+        
+            fieldset {
+                display: flex;
+            }
+        
+        
+        
+        
+            #selects {
+                display: grid;
+                align-items: center;
+        
+            }
+        
+            #travelTime {
+                width: 100%;
+            }
+        
+        
+            #destination {
+                width: 100%;
+            }
+        
+            #mySubmit {
+        
+                align-items: center;
+        
+            }
+
             footer{
                 display: flex;
                 justify-content: space-evenly;
@@ -1073,6 +1127,11 @@ select {
             display: flex;
             justify-content: space-evenly;
         }
+
+        #plan img {
+            width: 80%;
+            height: 200px;}
+            
         #testimonials div{
             display: flex;
             justify-content: space-evenly;
@@ -1086,6 +1145,61 @@ select {
         #about div{
             display: flex;
             justify-content: space-evenly;
+        }
+
+        form-required{
+            font-weight: normal;
+        }
+    
+    
+        #contact {
+            display: grid;
+            gap: 20px;
+            align-items: center;
+        }
+    
+        #contact h3 {
+            text-align: center;
+        }
+    
+    
+        #nums {
+            display: flex;
+            flex-direction: column;
+    
+        }
+    
+        #names {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #selects {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        fieldset {
+            display: flex;
+        }
+    
+    
+    
+        #names label {
+            margin-right: 20px;
+        }
+    
+    
+        #nums fieldset input {
+            width: 100%;
+        }
+    
+
+        #mySubmit {
+            align-items: center;
+            width: 50%;
+            text-align: center;
+    
         }
 
         footer{
