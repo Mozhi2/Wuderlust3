@@ -1071,14 +1071,15 @@ select {
                 justify-content: space-evenly;
             }
 
+            footer a{
+                display: flex;
+            }
+
             footer p{
                 display: flex;
             }
 
-            footer a{
-                display: flex;
-            }
-  
+           
     }
 
     @media screen and (min-width: 1200px){
@@ -1230,7 +1231,13 @@ select {
         }
 
         footer p{
-            text-align: left;
+            display: flex;
+         }
+
+        footer a{
+            display: flex;
         }
+
+       
 
     }
