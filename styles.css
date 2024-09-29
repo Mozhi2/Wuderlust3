@@ -1126,13 +1126,10 @@ select {
    #img-grid{
     grid-column: 2 / span 2;
    }
+
+
    
 
-        #intro{
-            display: grid;
-            
-        
-        }
 
         #img-grid {
             display: grid;
@@ -1174,7 +1171,7 @@ select {
                 width: 70%;  /* Desired width */
                 
             }
-            Summary
+            
             
         #testimonials div{
             display: flex;
