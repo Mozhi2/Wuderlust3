@@ -214,6 +214,218 @@ table {
     height: 1px;
     overflow: hidden;
   }
+/* ----- Custom Style for Radio button, submit, input----- */
+
+  #lName,
+#fName,
+#email,
+#phone,
+.required input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+
+#lName,
+#fName,
+#email,
+#phone,
+.required input:not(textarea) {
+    line-height: 1;
+    height: 2.25rem;
+}
+
+#lName,
+#fName,
+#email,
+#phone,
+.required[type="file"] {
+    font-size: 0.9em;
+    padding-top: 0.35rem;
+}
+
+#lName,
+#fName,
+#email,
+#phone,
+.required:focus {
+    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+    box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) + 40%), 0.8);
+}
+
+#lName,
+#fName,
+#email,
+#phone,
+.required {
+    transition: 180ms box-shadow ease-in-out;
+}
+
+#lName,
+#fName,
+#email,
+#phone,
+.required:focus {
+    outline: 3px solid transparent;
+}
+
+.radio-input {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: flex;
+    flex-flow: wrap;
+    gap: 0.5em;
+}
+
+input[type="radio"] {
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+
+input[type="radio"]::before {
+    background-color: CanvasText;
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+/*
+input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+.radio-input:focus-within {
+    color: var(--form-control-color);
+}
+    */
+.radio-control{
+    margin-right: 10px;
+}
+
+
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    outline: none;
+}
+
+.custom-select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.custom-select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--select-arrow);
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.custom-select {
+    display: grid;
+}
+
+.custom-select {
+
+    grid-template-areas: "select";
+}
+
+select,
+.custom-select:after {
+    grid-area: select;
+}
+
+
+.custom-select {
+    align-items: center;
+}
+
+.custom-select:after {
+    justify-self: end;
+}
+
+
+select:focus+.focus {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--select-focus);
+    border-radius: inherit;
+}
+
+.custom-select {
+    position: relative;
+
+}
+
+
+
+
+#mySubmit:hover {
+
+    background-color: #002ead;
+    transition: 0.7s;
+}
+
+
+#mySubmit:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px var(--purple);
+}
 
 
 /* ----- BODY STYLES ----- */
@@ -616,7 +828,7 @@ h1{
    #contact h3{
     text-align: center;
    }
-
+/*
 
     form{
        
@@ -715,7 +927,7 @@ h1{
         background-color: var(--purple);
         color: var(--light-gray);
     }
-
+*/
     footer{
     
             display: flex;
