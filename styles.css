@@ -980,10 +980,7 @@ select {
                 display: none;
             }
     
-       #intro{
-        margin: 1rem auto;
-            padding: 1rem;
-       }
+     
           #plan div{
             
                 display: grid;
@@ -1118,10 +1115,19 @@ select {
        
   
 
+   #intro{
+  grid-template-columns: repeat(4, 1fr);
+
+   }
+/*
+   #img-grid{
+    grid-columns: 3 / span2;
+   }
+   
+*/
         #intro{
             display: grid;
-            margin: 1rem auto;
-            padding: 1rem;
+            
         
         }
 
