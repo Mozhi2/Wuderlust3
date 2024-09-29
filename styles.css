@@ -291,7 +291,7 @@ h1{
 
   nav {
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.3rem;
+    grid-gap: 0.1rem;
   }
 
 
@@ -418,7 +418,7 @@ h1{
 
 
     #menu-toggle label{
-        font-size: 30px;
+        font-size: 25px;
         position: relative;
         display: block;
         font-weight: bold;
