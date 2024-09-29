@@ -1085,6 +1085,8 @@ select {
     display: flex;
     justify-content: space-evenly;
     gap: 0.5rem;
+    padding: 16px;
+    margin: 16px;
   }
   nav ul{
     display: flex;
