@@ -409,7 +409,7 @@ h1{
 
 /* ----- SMALL SCREEN STYLES ----- */
 
-  @media screen and (min-width: 500px){
+  @media screen and (min-width: 480px){
 
     header{
         padding: 1rem;
@@ -690,7 +690,12 @@ h1{
     }
 
     footer{
-        align-items: center;
+    
+            display: flex;
+            justify-content: space-evenly;
+            background-color: var(--light-gray);
+            padding: 20px;
+            
     }
 
     footer p, a{
@@ -711,6 +716,30 @@ h1{
 
         nav{
             display: flex;
+            justify-content: space-around;
+        }
+
+        nav a{
+            text-decoration:none;
+            text-align: center;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: var(--yellow);
+            color: var(--black);
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0.25rem;
+          
+            }
+          
+          
+            nav li {
+              list-style:none;
+            }
+          
+
+          #menu-toggle label{
+            display: none;
         }
 
           #plan div{
