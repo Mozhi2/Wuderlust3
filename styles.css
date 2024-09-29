@@ -254,7 +254,7 @@ table {
 #email,
 #phone,
 .required:focus {
-    border: 2px inset var(--purple);
+    border: 2px inset var(--light-gray);
 	box-shadow: 0 0 0 0.09em currentColor;
 }
 
@@ -306,7 +306,7 @@ input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
-    border-radius: 30%;
+    border-radius: 50%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
