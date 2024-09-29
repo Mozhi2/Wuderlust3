@@ -366,7 +366,7 @@ h1{
   /* ----- MAIN STYLES ----- */
   main{
     width: calc(100% - 2rem);
-    max-width: 1100px;
+   
     
   }
 
