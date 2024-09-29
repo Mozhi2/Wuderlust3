@@ -517,7 +517,9 @@ h1{
   nav {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.5rem;
+    /*
     align-items: center;
+    */
   }
 
 
@@ -659,6 +661,12 @@ h1{
 
     /*-----HAmburger Menu------*/
 
+
+     nav {
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+     }
     #menu-toggle {
         position: relative;
         align-items: center;
@@ -670,6 +678,7 @@ h1{
         position: relative;
         display: block;
         font-weight: bold;
+        font-style: italic;
         font: "Molle";
         cursor: pointer;
         display: inline-block;
@@ -1113,7 +1122,7 @@ select {
             /* Two columns */
             grid-template-rows: auto auto;
             /* Two rows */
-            gap: 10px;
+            gap: 15px;
             /* Optional spacing between images */
             justify-content: center;
     
