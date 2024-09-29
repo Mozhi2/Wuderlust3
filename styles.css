@@ -414,12 +414,6 @@ select:focus+.focus {
 
 
 
-#mySubmit:hover {
-
-    background-color: #002ead;
-    transition: 0.7s;
-}
-
 
 #mySubmit:focus {
     outline-color: transparent;
@@ -681,10 +675,7 @@ h1{
         padding: 20px;
         background-color: var(--yellow);
         text-align: center;
-        margin: 1rem auto;
-        padding: 1rem;
-
-    }
+      }
 
     input[type="checkbox"] {
         display: none;
@@ -826,12 +817,10 @@ h1{
        
     }
    /*---------Form Section--------*/
-   form-required{
-    font-weight: normal;
-}
 
-form,
-#mySubmit {
+
+form
+{
     display: grid;
     justify-content: center;
 
@@ -890,15 +879,7 @@ select {
     margin-top: 8px;
 }
 
-#mySubmit {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: var(--purple);
-    color: var(--white);
-    font-size: 20px;
-    align-items: center;
-   
-}
+
 
 
     footer{
@@ -919,6 +900,16 @@ select {
         text-align: center;
     }
 
+    #mySubmit {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: var(--purple);
+        color: var(--white);
+        font-size: 20px;
+        align-items: center;
+       
+    }
+
 
    }
 
@@ -927,9 +918,15 @@ select {
     @media screen and (min-width: 750px){
     
 
+
+        header h1{
+            text-align: center;
+        }
           header p{
             text-align: center;
           }
+
+    
 
 
         nav{
@@ -1055,8 +1052,8 @@ select {
             }
         
             #mySubmit {
-        
-                align-items: center;
+              align-items: center;
+              width: 70%;
         
             }
 
@@ -1147,8 +1144,9 @@ select {
             justify-content: space-evenly;
         }
 
-        form-required{
+        .form-required{
             font-weight: normal;
+            color:var(--purple)
         }
     
     
