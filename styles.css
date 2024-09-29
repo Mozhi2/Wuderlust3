@@ -266,6 +266,22 @@ h1{
   }
 
 
+  h1,
+  h2,
+  h3 {
+      font-family: "Molle";
+  }
+  
+  h4,
+  p,
+  q,
+  small,
+  nav,
+  button,
+  form {
+      font-family: "Montserrat";
+  }
+  
   
   h2{
     font-size: 1.5rem;
@@ -382,6 +398,7 @@ h1{
 
   footer p{
     font: sans-serif;
+    text-align: center;
   }
 
   footer a{
@@ -482,7 +499,7 @@ h1{
     /*-----intro section------*/
 
     #intro {
-        padding: 10px;
+        padding: 20px;
     }
 
     #intro p{
@@ -587,6 +604,10 @@ h1{
     }
    /*---------Form Section--------*/
 
+   #contact{
+    align-items: center;
+   }
+
    #contact h3{
     text-align: center;
    }
@@ -594,7 +615,7 @@ h1{
 
     form{
        
-        width: 90%;
+        width: 50%;
       
     }
    
@@ -698,9 +719,16 @@ h1{
             
     }
 
-    footer p, a{
-        font: sans-serif;
+    footer p{
+        font: "sans-serif";
+        text-align: center;
     }
+
+    footer a{
+        font: "sans-serif";
+        text-align: center;
+    }
+
 
    }
 
@@ -719,29 +747,39 @@ h1{
             justify-content: space-around;
         }
 
-        nav a{
-            text-decoration:none;
-            text-align: center;
-            padding: 1rem;
-            margin: 1rem 0;
-            background-color: var(--yellow);
-            color: var(--black);
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 0.25rem;
-          
+        
+            #manu-toggle {
+                display: flex;
             }
-          
-          
+        
+            #menu-toggle label {
+                display: none;
+            }
+        
+        
+            nav ul {
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
+        
+        
+        
             nav li {
-              list-style:none;
+                display: flex;
+                list-style:none;
             }
-          
-
-          #menu-toggle label{
-            display: none;
-        }
-
+        
+            nav ul li {
+                display: flex;
+                margin: 0 10px;
+        
+            }
+        
+            nav a {
+                display: flex;
+                justify-content: space-between;
+            }
           #plan div{
             
                 display: grid;
