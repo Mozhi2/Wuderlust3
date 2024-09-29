@@ -899,6 +899,7 @@ select {
     footer{
     
             display: grid;
+            padding: 10px;
            
            }
 
@@ -939,17 +940,19 @@ select {
             text-align: center;
           }
 
-    
+         h2{
+            text-align: center;
+         }
 
 
           nav{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
            
           }
           nav ul{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
           }
 
           nav li {
@@ -960,7 +963,7 @@ select {
           
            nav ul li{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             margin: 10px 0;
            }
 
@@ -1237,7 +1240,10 @@ select {
         footer{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            column-gap: 0.5rem;
         }
+
+        
 
        
 
