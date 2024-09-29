@@ -302,6 +302,7 @@ h1{
   h4{
     font-size: 1.15rem;
     text-align: center;
+    font-weight: bold;
   }
 
   /* ----- NAVIGATION STYLES ----- */
@@ -367,6 +368,10 @@ h1{
     
   }
 
+  #testimonials p{
+    font-style: italic;
+  }
+
   #testimonials q{
     font: "sans-serif";
     font-weight: normal;
@@ -415,7 +420,7 @@ h1{
       color: var(--black);
     }
 
-    #mySubmit :hover{
+    #mySubmit:hover{
         background-color: var(--light-pink);
         transition: 0.7s;
     }
@@ -615,7 +620,8 @@ h1{
 
     form{
        
-        width: 50%;
+        width: 90%;
+        align-items: center;
       
     }
    
@@ -820,4 +826,25 @@ h1{
             }
 
   
+    }
+
+    @media screen and (min-width: 1250px){
+
+        #testimonilas div{
+            display: flex;
+        }
+
+        #plan{
+            display: flex;
+        }
+
+        #about div{
+            display: flex;
+        }
+
+        footer{
+            display: flex;
+            justify-content: space-evenly ;
+        }
+
     }
