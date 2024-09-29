@@ -149,7 +149,8 @@ table {
     --yellow: #F6D64A;
     --purple: #9B26B0;
     --teal: #55BCD5;
-    --blue: #499BD2;
+    --blue: #1468a0;
+    --light-blue: #5959a9;
     --dark-gray: #222222;
     --light-gray: #EAEAEA;
     --white: #FFFFFF;
@@ -626,7 +627,7 @@ h1{
     }
 
     #mySubmit:hover{
-        background-color: var(--blue);
+        background-color: var(--light-blue);
         transition: 0.7s;
     }
 
@@ -929,44 +930,42 @@ select {
     
 
 
-        nav{
+          nav{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+          }
+          nav ul{
+            display: flex;
+            justify-content: space-evenly;
+          }
+
+          nav li {
+            display: flex;
+            list-style:none;
+        }
+    
+          
+           nav ul li{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px 0;
+           }
+
+            
+            
+        
+           nav a {
             display: flex;
             justify-content: space-evenly;
         }
 
         
-            #manu-toggle {
-                display: flex;
-            }
-        
             #menu-toggle label {
                 display: none;
             }
-        
-        
-            nav ul {
-                display: flex;
-                justify-content: center;
-                padding: 0;
-            }
-        
-        
-        
-            nav li {
-                display: flex;
-                list-style:none;
-            }
-        
-            nav ul li {
-                display: flex;
-                margin: 0 10px;
-        
-            }
-        
-            nav a {
-                display: flex;
-                justify-content: space-evenly;
-            }
+    
+       
           #plan div{
             
                 display: grid;
@@ -1062,6 +1061,13 @@ select {
                 justify-content: space-evenly;
             }
 
+            footer p{
+                display: flex;
+            }
+
+            footer a{
+                display: flex;
+            }
   
     }
 
@@ -1076,9 +1082,12 @@ select {
   
   nav{
     display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
   }
   nav ul{
     display: flex;
+    justify-content: space-evenly;
   }
   
    nav ul li{
