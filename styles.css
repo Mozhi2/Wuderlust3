@@ -365,10 +365,15 @@ h1{
 
   /* ----- MAIN STYLES ----- */
   main{
-    width: calc(100% - 2rem);
+    
+        width: calc(100% - 2rem);
+        max-width: 1100px;
+        margin: 1rem auto;
+        padding: 1rem;
+      }
    
     
-  }
+  
 
 
   /*--------Form Section---------*/
@@ -382,6 +387,15 @@ h1{
 
   footer{
     background-color: var(--light-gray);
+    color: var(--black);
+  }
+
+  footer p{
+    font: sans-serif;
+  }
+
+  footer a{
+    text-decoration: none;
     color: var(--black);
   }
 
@@ -582,7 +596,7 @@ h1{
     text-align: center;
    }
 
-
+/*
     form{
        
         width: 90%;
@@ -592,7 +606,7 @@ h1{
         border: 2px solid #777;
         border-radius: 0.2em;
     }
-    
+   */ 
     input, label{
         display: block;
         width: calc(100% - 2em);
@@ -672,7 +686,7 @@ h1{
         border-radius: 25%;
     }
     
-    #mySubmit input[type="submit"]{
+    input[type="submit"]{
         font-size: 1.2em;
         width: 95%;
         margin-top: 1em;
@@ -683,6 +697,16 @@ h1{
         background-color: var(--purple);
         color: var(--light-gray);
     }
+
+    footer{
+        text-align: center;
+    }
+
+    footer p, a{
+        font: sans-serif;
+    }
+
+   
 
     
 
