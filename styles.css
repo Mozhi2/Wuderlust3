@@ -578,7 +578,7 @@ h1{
 
 
     form{
-        display: grid;
+       
         width: 90%;
         max-width: 350px;
         margin:  2em auto;
@@ -600,19 +600,24 @@ h1{
     
     label{
         font-size: 1.1em;
+        margin: 10px;
     }
     
+
+    .form-required{
+        font-weight: normal;
+    }
     .required{
         color: var(--purple);
     }
 
     input{
-        width: 90%;
+        width: 95%;
         margin: 0.25em auto 0.5em auto;
         padding: 0.5em;
     }
     
-    input:focus, select:focus, textarea:focus{
+    input:focus, select:focus{
         border: 2px inset var(--purple);
         box-shadow: 0 0 0 0.09em currentColor;
     }
@@ -624,17 +629,14 @@ h1{
     fieldset{
         margin: 0.5em auto;
         padding-bottom: 0.5em;
-        width: 94%;
+        width: 95%;
         border: 1px solid #222;
         border-radius: 0.2em;
         display: grid;
         grid-template-columns: 30px 1fr 30px 1fr;
     }
     
-    legend{
-        padding: 0.5em;
-    }
-    
+ 
     fieldset label{
         display: inline;
         width: 60%;
@@ -671,14 +673,9 @@ h1{
         outline: none;
         border-radius: 0.2em;
         background-color: var(--purple);
-        color: white;
+        color: var(--dark-gray);
     }
-    
-    input[type="submit"]:hover, input[type="submit"]:focus{
-        background-color: var(--purple);
-        filter: drop-shadow(8px 8px 4px #777);
-    }
-    
+
     
 
     
