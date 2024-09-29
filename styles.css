@@ -284,6 +284,12 @@ table {
     gap: 0.5em;
 }
 
+
+input:focus, select:focus{
+	border: 2px inset var(--purple);
+	box-shadow: 0 0 0 0.09em currentColor;
+}
+
 input[type="radio"] {
 
     -webkit-appearance: none;
@@ -1116,6 +1122,7 @@ select {
   
 
    #intro{
+    display: grid;
   grid-template-columns: repeat(3, 1fr);
 
    }
@@ -1203,7 +1210,7 @@ select {
         #contact {
             display: grid;
             gap: 20px;
-            align-items: center;
+       
         }
     
         #contact h3 {
@@ -1246,14 +1253,14 @@ select {
         #mySubmit {
             align-items: center;
             width: 50%;
-            text-align: center;
+          
     
         }
 
         footer{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            column-gap: 0.5rem;
+            gap: 0.5rem
         }
 
         
