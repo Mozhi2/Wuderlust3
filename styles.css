@@ -242,7 +242,7 @@ body{
     line-height: 1.35;
     padding: 0.5rem 0;
     margin: 10px auto;
-    text-align: left;
+    text-align: center;
     font: "sans-serif";
     font-weight: normal;
   }
@@ -261,7 +261,7 @@ body{
 h1{
     font-weight: bold;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
   }
 
 
@@ -407,6 +407,7 @@ h1{
 
     #menu-toggle {
         position: relative;
+        align-items: center;
     }
 
 
