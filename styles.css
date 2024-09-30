@@ -986,6 +986,7 @@ select {
             
           }
           
+          
 
         
             #menu-toggle label {
@@ -1116,6 +1117,29 @@ select {
            
 
         }
+
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+           
+            margin: 20px;
+          }
+          nav ul{
+            display: flex;
+            justify-content: space-evenly;
+          }
+          
+           nav ul li{
+            display: flex;
+            justify-content: space-evenly;
+           }
+       main > #intro{
+        width: calc(100% - 2rem);
+  max-width: 1100px;
+  margin: 1rem auto;
+  padding: 1rem;
+       }        
 
 
 /*
