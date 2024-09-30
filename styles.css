@@ -1137,16 +1137,10 @@ select {
 
         }
 
-
-
-        h2{
-            text-align: center;
-        }
-
      
   
   #menu-toggle{
-    justify-content: end;
+    justify-self: end;
   }
   nav{
     display: flex;
@@ -1170,9 +1164,12 @@ select {
    #intro{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    justify-self: center;
     gap: 0;
 
+   }
+   #intro h2, p{
+    justify-self: center;
    }
 
    #intro p{
