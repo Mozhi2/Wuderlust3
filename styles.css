@@ -272,12 +272,15 @@ table {
 #email,
 #phone,
 .required:focus {
-    outline: 3px solid transparent;
+    
+        border: 2px inset var(--purple);
+        box-shadow: 0 0 0 0.09em currentColor;
+    
 }
 
 .radio-input {
     font-family: system-ui, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.1;
     display: flex;
@@ -287,9 +290,11 @@ table {
 
 
 input:focus, select:focus{
-	border: 2px inset var(--purple);
-	box-shadow: 0 0 0 0.09em currentColor;
-}
+
+        border: 2px inset var(--purple);
+        box-shadow: 0 0 0 0.09em currentColor;
+    }
+
 
 input[type="radio"] {
 
@@ -1128,7 +1133,7 @@ select {
 
         header h1, p{
             grid-column: 2 / span 1;
-            justify-self: start;
+            text-align: left;
         }
 /*
         header nav{
@@ -1137,6 +1142,8 @@ select {
 
         }
 */
+
+/*
   nav{
     display: flex;
     justify-content: flex-end;
@@ -1154,7 +1161,7 @@ select {
     justify-content: space-evenly;
    }
        
-  
+  */
 
    #intro{
     display: grid;
