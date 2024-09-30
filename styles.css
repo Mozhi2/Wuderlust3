@@ -1144,12 +1144,7 @@ select {
 
 
 
-       main > #intro{
-        width: calc(100% - 2rem);
-  max-width: 1100px;
-  margin: 1rem auto;
-  padding: 1rem;
-       }        
+         
 
 
 /*
@@ -1175,7 +1170,7 @@ select {
    #intro{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-self: center;
+    align-content: center;
     gap: 0;
 
    }
