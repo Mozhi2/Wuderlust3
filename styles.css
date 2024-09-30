@@ -1110,7 +1110,7 @@ select {
             padding: 1.5rem 0;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-           align-content: start;
+            align-content: stretch;
             
         }
 
@@ -1138,8 +1138,7 @@ select {
             display: flex;
             justify-content: flex-end;
             gap: 0.5rem;
-           
-            margin: 20px;
+            margin-left: auto; /* Pushes the nav to the right */
           }
           nav ul{
             display: flex;
@@ -1148,10 +1147,14 @@ select {
           
            nav ul li{
             display: flex;
-            justify-content: space-evenly;
+            list-style: none;
+            padding: 0;
+            margin-left: 20px; /* Space between navigation items */
            }
 
-
+   
+        
+   
 
          
 
@@ -1277,13 +1280,11 @@ select {
         #contact {
             display: grid;
             gap: 20px;
+            align-items: center;
        
         }
 
-        form{
-            width: 90%;
-        }
-    
+      
         #contact h3 {
             text-align: center;
         }
