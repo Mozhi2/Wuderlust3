@@ -628,10 +628,7 @@ h1{
     transition: all 0.3s ease;
 }
 
-#mySubmit:hover {
-    box-shadow: inset 5px 5px 15px var(--light-gray),
-                inset -5px -5px 15px var(--dark-gray);
-}
+
 
   /* ----- Footer STYLES ----- */
 
@@ -661,14 +658,11 @@ h1{
       background-color: var(--orange);
       color: var(--black);
     }
-/*
-    #mySubmit:hover{
-        background-color: var(--light-blue);
-        transition: 0.7s;
-    }
-*/
-    #menu-toggle label:hover{
-        background-color: var(--teal);
+
+    
+    #mySubmit:hover {
+        box-shadow: inset 5px 5px 15px var(--teal),
+                    inset -5px -5px 15px var(--dark-blue);
     }
 
   }
@@ -705,8 +699,18 @@ h1{
         
     }
 
-
     #menu-toggle label{
+        margin: 1rem;
+       font-size: 16px;
+    color: var(--black);
+    background: linear-gradient(145deg, var(--yellow), var(--orange));
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px var(--light-gray),
+                -5px -5px 15px var(--dark-gray);
+    transition: all 0.3s ease;
+
+
         font-size: 25px;
         position: relative;
         display: block;
@@ -716,9 +720,12 @@ h1{
         cursor: pointer;
         display: inline-block;
         padding: 20px;
-        background-color: var(--yellow);
+        
         text-align: center;
       }
+
+        
+
 
     input[type="checkbox"] {
         display: none;
@@ -1099,7 +1106,7 @@ select {
             padding: 1.5rem 0;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-           
+           align-content: start;
             
         }
 
@@ -1137,7 +1144,7 @@ select {
 
 
 
-       main h2{
+       main > #intro{
         width: calc(100% - 2rem);
   max-width: 1100px;
   margin: 1rem auto;
@@ -1321,6 +1328,8 @@ select {
 
         footer p{
             text-align: left;
+            margin: 0%;
+            padding: 0%;
         }
         footer a{
             text-align: right;
