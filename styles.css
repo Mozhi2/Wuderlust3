@@ -310,7 +310,7 @@ input[type="radio"] {
     width: 1em;
     height: 1em;
     border: 0.15em solid currentColor;
-    border-radius: 30%;
+    border-radius: 70%;
     display: grid;
     place-content: center;
 }
@@ -321,7 +321,7 @@ input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
-    border-radius: 30%;
+    border-radius: 70%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
@@ -909,6 +909,7 @@ form
 .radio-label {
     font-weight: normal;
     display: flex;
+    margin-right: 20px;
 
 }
 
