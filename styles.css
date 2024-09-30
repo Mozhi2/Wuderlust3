@@ -1184,6 +1184,7 @@ select {
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     gap: 0;
+    width: 50%;
 
    }
 
