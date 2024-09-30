@@ -1155,8 +1155,9 @@ select {
 
    #intro{
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 20px;
 
    }
 
@@ -1166,7 +1167,7 @@ select {
    }
 
 
-   #img-grid{
+   #img-grid{   
     grid-column: 2 / span 2;
     width: 50%;
     height: 50%;
