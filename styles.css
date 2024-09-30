@@ -310,7 +310,7 @@ input[type="radio"] {
     width: 1em;
     height: 1em;
     border: 0.15em solid currentColor;
-    border-radius: 40%;
+    border-radius: 50%;
     display: grid;
     place-content: center;
 }
@@ -1075,6 +1075,10 @@ select {
                 align-items: center;
         
             }
+
+            #selects label{
+                text-align: left;
+            }
         
             #travelTime {
                 width: 100%;
@@ -1294,6 +1298,7 @@ select {
         #selects {
             display: flex;
             flex-direction: column;
+            text-align: left;
         }
     
         fieldset {
@@ -1328,6 +1333,8 @@ select {
         }
         footer a{
             text-align: right;
+            margin: 0%;
+            padding: 0%;
         }
 
         
