@@ -399,6 +399,8 @@ select,
 
 .custom-select {
     align-items: center;
+    border: 2px inset var(--light-gray);
+	box-shadow: 0 0 0 0.09em currentColor;
 }
 
 .custom-select:after {
@@ -416,23 +418,11 @@ select:focus+.focus {
     border-radius: inherit;
 }
 
-.custom-select {
-    position: relative;
-
-}
 
 
 
-/*
 
-#mySubmit:focus {
-    outline-color: transparent;
-    outline-style: solid;
-    box-shadow: 0 0 0 4px var(--purple);
-}
 
-*/
-/* ----- BODY STYLES ----- */
 
 body{
     font-family: var(--fonts);
@@ -450,16 +440,20 @@ body{
         background-image: linear-gradient(var(--teal), var(--white));
         color: var(--black);
         margin: 0 auto;
+        /*
         grid-gap: 0.5rem;
-       
+       */
 
   }
   
   header p{
     line-height: 1.35;
+    /*
     padding: 0.5rem 0;
     margin: 10px auto;
+    
     text-align: center;
+    */
     font-family: sans-serif;
     font-weight: normal;
   }
@@ -635,12 +629,12 @@ h1{
   footer{
     background-color: var(--light-gray);
     color: var(--black);
-    text-align: center;
+   
   }
 
   footer p{
     font-family: sans-serif;
-    text-align: center;
+   
     font-size: 1rem;
   }
 
@@ -1313,8 +1307,12 @@ select {
 */
         footer{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
            
+        }
+
+        footer p{
+            text-align: left;
         }
 
         
