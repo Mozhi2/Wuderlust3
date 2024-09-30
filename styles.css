@@ -1109,10 +1109,10 @@ select {
     @media screen and (min-width: 1200px){
 
         header{
+            padding: 1.5rem 0;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-            gap: 0;
-            padding: 0;
+            align-items: center;
         }
 
         header h1, p{
@@ -1121,7 +1121,7 @@ select {
 
         header nav{
             grid-column: 3 / span 3;
-            align-items: right;
+           
 
         }
 
@@ -1156,8 +1156,8 @@ select {
    #intro{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
-    margin: 20px;
+    margin: 1rem auto;
+    padding: 1rem;
 
    }
 
