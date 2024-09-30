@@ -983,33 +983,9 @@ select {
 
           nav{
             display: flex;
-            justify-content: space-evenly;
-           
+            
           }
-          nav ul{
-            display: flex;
-            justify-content: space-evenly;
-          }
-
-          nav li {
-            display: flex;
-            list-style:none;
-        }
-    
           
-           nav ul li{
-            display: flex;
-            justify-content: space-evenly;
-            margin: 10px 0;
-           }
-
-            
-            
-        
-           nav a {
-            display: flex;
-            justify-content: space-between;
-        }
 
         
             #menu-toggle label {
@@ -1100,14 +1076,6 @@ select {
             #destination {
                 width: 100%;
             }
-        /*
-            #mySubmit {
-              align-items: center;
-              width: 70%;
-        
-            }
-              */
-
             footer{
                 display: flex;
                 justify-content: space-evenly;
