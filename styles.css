@@ -1128,23 +1128,18 @@ select {
 
         header h1, p{
             grid-column: 2 / span 1;
-            justify-content: start;
+            justify-self: start;
         }
 
         header nav{
             grid-column: 3 / span 3;
-           
+           justify-self: right;
 
         }
 
-     
-  
-  #menu-toggle{
-    justify-self: end;
-  }
   nav{
     display: flex;
-    justify-content: space-evenly;
+    
     gap: 0.5rem;
     padding: 0;
     margin: 0;
