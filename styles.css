@@ -1116,10 +1116,15 @@ select {
 
         header h1{
             grid-column: 2 / span 1;
+            margin: 0;
+            padding: 0;
         }
 
         header p{
             grid-column: 2 / span 1;
+            text-align: left;
+            margin: 0;
+            padding: 0;
             
         }
 
