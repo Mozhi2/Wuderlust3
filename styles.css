@@ -1138,7 +1138,10 @@ select {
             display: flex;
             justify-content: space-evenly;
            }
-       main > #intro{
+
+
+
+       main h2{
         width: calc(100% - 2rem);
   max-width: 1100px;
   margin: 1rem auto;
