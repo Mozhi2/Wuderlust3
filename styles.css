@@ -157,6 +157,7 @@ table {
     --black: #000000;
     --orange: #ffa500;
     --light-pink: #e798dd;
+    --med-purple: #836fff;
     font-size: 16px;
     --fonts: "Molle", Montserrat, sans-serif;
     --input-border: #8b8a8b;
@@ -417,7 +418,7 @@ select:focus+.focus {
 
 
 
-
+/*
 
 #mySubmit:focus {
     outline-color: transparent;
@@ -425,7 +426,7 @@ select:focus+.focus {
     box-shadow: 0 0 0 4px var(--purple);
 }
 
-
+*/
 /* ----- BODY STYLES ----- */
 
 body{
@@ -608,19 +609,19 @@ h1{
   #mySubmit {
     padding: 15px 30px;
     font-size: 16px;
-    color: #fff;
-    background: linear-gradient(145deg, #6a5acd, #836fff);
+    color: var(--white);
+    background: linear-gradient(145deg, var(--purple), var(--med-purple));
     border: none;
     border-radius: 8px;
-    box-shadow: 5px 5px 15px #b5b5b5,
-                -5px -5px 15px #ffffff;
+    box-shadow: 5px 5px 15px var(--light-gray),
+                -5px -5px 15px var(--dark-gray);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 #mySubmit:hover {
-    box-shadow: inset 5px 5px 15px #b5b5b5,
-                inset -5px -5px 15px #ffffff;
+    box-shadow: inset 5px 5px 15px var(--light-gray),
+                inset -5px -5px 15px var(--dark-gray);
 }
 
   /* ----- Footer STYLES ----- */
