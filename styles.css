@@ -1111,6 +1111,8 @@ select {
         header{
             display: grid;
             grid-template-columns: repeat(6, 1fr);
+            gap: 0;
+            padding: 0;
         }
 
         header h1, p{
@@ -1119,6 +1121,7 @@ select {
 
         header nav{
             grid-column: 3 / span 3;
+            align-items: right;
 
         }
 
