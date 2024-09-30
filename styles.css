@@ -1130,16 +1130,16 @@ select {
             grid-column: 2 / span 1;
             justify-self: start;
         }
-
+/*
         header nav{
             grid-column: 3 / span 3;
-           justify-self: right;
+           
 
         }
-
+*/
   nav{
     display: flex;
-    
+    justify-self: right;
     gap: 0.5rem;
     padding: 0;
     margin: 0;
