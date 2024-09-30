@@ -310,7 +310,7 @@ input[type="radio"] {
     width: 1em;
     height: 1em;
     border: 0.15em solid currentColor;
-    border-radius: 100%;
+    border-radius: 40%;
     display: grid;
     place-content: center;
 }
@@ -321,7 +321,7 @@ input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
-    border-radius: 100%;
+    border-radius: 40%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
@@ -1110,13 +1110,13 @@ select {
         header p{
             text-align: left;
         }
-/*
+
         header nav{
-            grid-column: 3 / span 3;
+            grid-column: 3 / span 1;
            
 
         }
-*/
+
 
 /*
   nav{
@@ -1286,11 +1286,13 @@ select {
     
         }
 */
-        footer{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            align-items: left;
-           
+       
+
+        footer p{
+            text-align: left;
+        }
+        footer a{
+            text-align: right;
         }
 
         
