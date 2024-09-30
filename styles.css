@@ -1098,13 +1098,17 @@ select {
         header{
             padding: 1.5rem 0;
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 2rem;
             
         }
 
-        header h1, p{
+        header h1{
             grid-column: 2 / span 1;
+        }
+
+        header p{
+            grid-column: 2 / span 2;
             
         }
 
@@ -1113,7 +1117,7 @@ select {
         }
 
         header nav{
-            grid-column: 3 / span 1;
+            grid-column: 3 / span 2;
            
 
         }
