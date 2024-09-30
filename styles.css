@@ -272,16 +272,13 @@ table {
 #email,
 #phone,
 .required:focus {
-    
-        border: 2px inset var(--purple);
-        box-shadow: 0 0 0 0.09em currentColor;
-    
+    outline: 3px solid transparent;
 }
 
 .radio-input {
     font-family: system-ui, sans-serif;
-    font-size: 0.5rem;
-    font-weight: normal;
+    font-size: 2rem;
+    font-weight: bold;
     line-height: 1.1;
     display: flex;
     flex-flow: wrap;
@@ -399,8 +396,6 @@ select,
 
 .custom-select {
     align-items: center;
-    border: 2px inset var(--light-gray);
-	box-shadow: 0 0 0 0.09em currentColor;
 }
 
 .custom-select:after {
@@ -418,11 +413,23 @@ select:focus+.focus {
     border-radius: inherit;
 }
 
+.custom-select {
+    position: relative;
+
+}
 
 
 
+/*
 
+#mySubmit:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px var(--purple);
+}
 
+*/
+/* ----- BODY STYLES ----- */
 
 body{
     font-family: var(--fonts);
@@ -440,20 +447,16 @@ body{
         background-image: linear-gradient(var(--teal), var(--white));
         color: var(--black);
         margin: 0 auto;
-        /*
         grid-gap: 0.5rem;
-       */
+       
 
   }
   
   header p{
     line-height: 1.35;
-    /*
     padding: 0.5rem 0;
     margin: 10px auto;
-    
     text-align: center;
-    */
     font-family: sans-serif;
     font-weight: normal;
   }
@@ -629,12 +632,12 @@ h1{
   footer{
     background-color: var(--light-gray);
     color: var(--black);
-   
+    text-align: center;
   }
 
   footer p{
     font-family: sans-serif;
-   
+    text-align: center;
     font-size: 1rem;
   }
 
@@ -896,12 +899,10 @@ form
 }
 
 
+
 .radio-label {
     font-weight: normal;
-    /*
     display: flex;
-    */
-    margin: 20px;
 
 }
 
@@ -921,9 +922,7 @@ select {
 }
 
 
-#mySubmit{
-    align-items: center;
-}
+
 
     footer{
     
@@ -1311,12 +1310,8 @@ select {
 */
         footer{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
            
-        }
-
-        footer p{
-            text-align: left;
         }
 
         
