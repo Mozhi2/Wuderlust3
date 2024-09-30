@@ -760,14 +760,29 @@ h1{
 
     #img-grid {
         display: grid;
-        gap: 1rem;
-        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns */
+        grid-template-rows: auto auto;
+        /* Two rows */
+        gap: 10px;
+        /* Optional spacing between images */
+        justify-content: center;
+
     }
 
     #img-grid img {
         width: 100%;
+        /* Makes images responsive */
+        height: auto;
+        /* Maintains aspect ratio */
+        align-items: center;
     }
 
+    /* Place the third image to span the entire row */
+    #img-grid picture {
+        grid-column: 1 / span 2;
+        /* Span across both columns */
+    }
 
 
 
@@ -1202,7 +1217,7 @@ select {
     grid-column: 1 / span 2;
     /* Span across both columns */
 }
-
+/*
    #img-grid{   
     grid-column: 2 / span 2;
     width: 50%;
@@ -1214,7 +1229,7 @@ select {
     height: auto;
    }
 
-
+*/
 
 
         #plan div {
