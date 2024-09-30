@@ -280,8 +280,8 @@ table {
 
 .radio-input {
     font-family: system-ui, sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 0.5rem;
+    font-weight: normal;
     line-height: 1.1;
     display: flex;
     flex-flow: wrap;
@@ -896,10 +896,12 @@ form
 }
 
 
-
 .radio-label {
     font-weight: normal;
+    /*
     display: flex;
+    */
+    margin: 20px;
 
 }
 
@@ -919,7 +921,9 @@ select {
 }
 
 
-
+#mySubmit{
+    align-items: center;
+}
 
     footer{
     
