@@ -607,6 +607,7 @@ h1{
 
 /*---------Submit Button----------*/
   #mySubmit {
+    margin: 20px;
     padding: 25px 30px;
     font-size: 16px;
     color: var(--white);
@@ -767,10 +768,6 @@ h1{
         width: 100%;
     }
 
-    #img-grid picture img {
-        height: 80%; /* Adjust the height as needed */
-        width: auto; /* Maintain aspect ratio */
-    }
 
 
 
@@ -1117,7 +1114,9 @@ select {
             padding: 1.5rem 0;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-           gap: 0;
+            grid-template-rows: auto; /* Adjusts row height automatically */
+            grid-gap: 0; /* Removes space between rows and columns */
+            
         }
 
         header h1, p{
@@ -1144,8 +1143,8 @@ select {
     justify-content: space-evenly;
     gap: 0.5rem;
     justify-content: right;
-    padding: 16px;
-    margin: 16px;
+    padding: 0;
+    margin: 0;
   }
   nav ul{
     display: flex;
@@ -1169,6 +1168,7 @@ select {
 
    #intro p{
     grid-column: 1 / span 1;
+    align-items: center;
 
    }
 
