@@ -292,6 +292,12 @@ input:focus, select:focus{
         box-shadow: 0 0 0 0.09em currentColor;
     }
 
+    input[type=text]:focus{
+        outline: 2px solid var(--purple);    
+      }
+
+
+
 
 input[type="radio"] {
 
@@ -304,7 +310,7 @@ input[type="radio"] {
     width: 1em;
     height: 1em;
     border: 0.15em solid currentColor;
-    border-radius: 50%;
+    border-radius: 30%;
     display: grid;
     place-content: center;
 }
@@ -315,7 +321,7 @@ input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
-    border-radius: 50%;
+    border-radius: 30%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
@@ -1309,8 +1315,8 @@ select {
         }
 */
         footer{
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
            
         }
 
