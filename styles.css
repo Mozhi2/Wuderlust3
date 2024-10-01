@@ -219,7 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#contact input{
+#contact input:not(fieldset){
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -230,12 +230,12 @@ table {
     transition: 180ms box-shadow ease-in-out;
   }
 
-  #contact input{
+  #contact input:not(fieldset){
     line-height: 1;
     height: 2.25rem;
   }
 
-  #contact input:focus {
+  #contact input:not(fieldset):focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
