@@ -301,8 +301,7 @@ table {
     grid-template-areas: "select";
     align-items: center;
     width: 100%;
-    min-width: 15ch;
-    max-width: 30ch;
+  
     border: 1px solid var(--select-border);
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
@@ -1058,7 +1057,9 @@ select {
     margin-top: 8px;
 }
 
-
+#mySubmit{
+    align-content: center;
+}
 
 
     footer{
@@ -1078,18 +1079,8 @@ select {
         font-family: "sans-serif";
         text-align: center;
     }
-    /*
-
-    #mySubmit {
-        margin-top: 20px;
-        padding: 20px;
-        background-color: var(--purple);
-        color: var(--white);
-        font-size: 20px;
-        align-items: center;
-       
-    }
-*/
+ 
+    
 
    }
 
