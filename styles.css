@@ -1111,7 +1111,7 @@ select {
             padding: 0;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            align-content: stretch;
+            align-content: start;
             
         }
 
