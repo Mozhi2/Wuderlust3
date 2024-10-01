@@ -1121,7 +1121,7 @@ select {
         }
 
         header p{
-            grid-column: 2 / span 1;
+            grid-column: 2;
             text-align: left;
             margin: 0;
             padding: 0;
@@ -1129,7 +1129,7 @@ select {
         }
 
         header nav{
-            grid-column: 3 / span 1;
+            grid-column: 3;
            
 
         }
@@ -1139,6 +1139,7 @@ select {
             justify-content: flex-end;
             gap: 0.5rem;
             margin-left: auto; /* Pushes the nav to the right */
+            margin-bottom: auto;
           }
           nav ul{
             display: flex;
