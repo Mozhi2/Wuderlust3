@@ -218,6 +218,43 @@ table {
   }
 /* ----- Custom Style for Radio button, submit, input----- */
 
+
+#lName,
+#fName,
+#email,
+#phone {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    transition: 180ms box-shadow ease-in-out;
+  }
+
+  #lName,
+#fName,
+#email,
+#phone {
+    line-height: 1;
+    height: 2.25rem;
+  }
+
+  #lName,
+#fName,
+#email,
+#phone:focus {
+    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+      /* ...existing styles */
+     
+  box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) +
+  40%), 0.8);
+
+}
+
+
+    /*
   #lName,
 #fName,
 #email,
@@ -294,6 +331,7 @@ input:focus, select:focus{
 
     input[type=text]:focus{
         outline: 2px solid var(--purple);     /* oranges! yey */
+        /*
       }
 
 
@@ -340,6 +378,7 @@ input[type="radio"]:focus {
     color: var(--form-control-color);
 }
     */
+    /*
 .radio-control{
     margin-right: 10px;
 }
@@ -1202,11 +1241,15 @@ select {
   */
 
    #intro{
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   }
+    
+    #intro h2{
+        text-align: left;
     }
 
 
@@ -1216,6 +1259,8 @@ select {
     
 
    }
+
+
 
 
    
