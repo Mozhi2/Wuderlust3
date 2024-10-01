@@ -660,9 +660,9 @@ h1{
     }
 
     
-    #mySubmit:hover {
+    #menu-toggle:hover {
         box-shadow: inset 5px 5px 15px var(--teal),
-                    inset -5px -5px 15px var(--dark-blue);
+                    inset -5px -5px 15px var(--blue);
     }
 
   }
@@ -1107,7 +1107,8 @@ select {
     @media screen and (min-width: 1200px){
 
         header{
-            padding: 1.5rem 0;
+            margin: 0;
+            padding: 0;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             align-content: stretch;
@@ -1121,7 +1122,7 @@ select {
         }
 
         header p{
-            grid-column: 2;
+            grid-column: 2 / span 1;
             text-align: left;
             margin: 0;
             padding: 0;
@@ -1129,7 +1130,7 @@ select {
         }
 
         header nav{
-            grid-column: 3;
+            grid-column: 3 / span 1;
            
 
         }
