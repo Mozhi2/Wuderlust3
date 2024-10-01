@@ -245,7 +245,7 @@ table {
 }
 
 /* ----- Custom Style for radio----- */
-#radio-label{
+.radio-label{
     font-family: system-ui, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
@@ -256,7 +256,7 @@ table {
 
   }
 
-  #radio-input[type="radio"] {
+  .radio-input[type="radio"] {
     display: grid;
     place-content: center;
     /* Add if not using autoprefixer */
@@ -276,7 +276,7 @@ table {
     transform: translateY(-0.075em);
   }
 
-  #radio-input[type="radio"]::before {
+  .radio-input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
@@ -285,11 +285,11 @@ table {
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
   }
-  #radio-input[type="radio"]:checked::before {
+  .radio-input[type="radio"]:checked::before {
     transform: scale(1);
   }
 
-  #radio-label + #radio-label {
+  .radio-label + .radio-label {
     margin-top: 1em;
   }
 
@@ -1033,12 +1033,16 @@ form
     width: 100%;
 }
 
+fieldset input{
+    width: 350%;
+}
 
 
 .radio-label {
     font-weight: normal;
     display: flex;
-    margin-right: -20px;
+    margin-left: 20px;
+
 
 }
 
@@ -1058,7 +1062,7 @@ select {
 }
 
 #mySubmit{
-    align-content: center;
+    margin-left: 20px;
 }
 
 
