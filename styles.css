@@ -228,12 +228,10 @@ table {
     border: 2px solid var(--input-border);
     border-radius: 4px;
     transition: 180ms box-shadow ease-in-out;
-  }
-
-  #contact input:not(fieldset){
     line-height: 1;
     height: 2.25rem;
   }
+
 
   #contact input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
@@ -247,8 +245,7 @@ table {
 /* ----- Custom Style for radio----- */
 .radio-label{
     font-family: system-ui, sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.25rem;
     line-height: 1.1;
     display: grid;
     grid-template-columns: 1em auto;
@@ -301,7 +298,9 @@ table {
     grid-template-areas: "select";
     align-items: center;
     width: 100%;
-  
+    height: 2.25rem;
+    min-width: 15ch;
+    max-width: 30ch;
     border: 1px solid var(--select-border);
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
