@@ -1452,7 +1452,9 @@ select {
             display: flex;
         }
     
-    
+    #selects label{
+        text-align: left;
+    }
     
         #names label {
             margin-right: 20px;
@@ -1462,15 +1464,9 @@ select {
         #nums fieldset input {
             width: 100%;
         }
-    
-/*
-        #mySubmit {
-            align-items: center;
-            width: 50%;
-          
-    
-        }
-*/
+      #travelTime, #destination input{
+        width: 100%;
+      }
        
 
         footer p{
