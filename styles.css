@@ -219,7 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#names, #nums input:not(fieldset){
+#fName, #lName, #email, #phone input:not(fieldset){
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -230,12 +230,12 @@ table {
     transition: 180ms box-shadow ease-in-out;
   }
 
-  #names, #nums input:not(fieldset){
+  #fName, #lName, #email, #phone input:not(fieldset){
     line-height: 1;
     height: 2.25rem;
   }
 
-  #names, #nums input:not(fieldset):focus {
+  #fName, #lName, #email, #phone input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
@@ -256,7 +256,7 @@ table {
 
   }
 
-  input[type="radio"] {
+  #radio-input[type="radio"] {
     display: grid;
     place-content: center;
     /* Add if not using autoprefixer */
@@ -276,7 +276,7 @@ table {
     transform: translateY(-0.075em);
   }
 
-  input[type="radio"]::before {
+  #radio-input[type="radio"]::before {
     content: "";
     width: 0.65em;
     height: 0.65em;
@@ -285,12 +285,51 @@ table {
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
   }
-  input[type="radio"]:checked::before {
+  #radio-input[type="radio"]:checked::before {
     transform: scale(1);
   }
 
-  .form-control + .form-control {
+  #radio-label + #radio-label {
     margin-top: 1em;
+  }
+
+
+
+/* ----- Custom Style for select----- */
+#custom-select{
+    position: relative;
+    grid-template-areas: "select";
+    align-items: center;
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }
+
+  #custom-select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--select-arrow);
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+  }
+
+  select:focus + .focus {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--select-focus);
+    border-radius: inherit;
   }
 
 
