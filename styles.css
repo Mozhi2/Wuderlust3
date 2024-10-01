@@ -219,10 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#lName,
-#fName,
-#email,
-#phone {
+#contact input{
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -233,18 +230,12 @@ table {
     transition: 180ms box-shadow ease-in-out;
   }
 
-  #lName,
-#fName,
-#email,
-#phone {
+  #contact input{
     line-height: 1;
     height: 2.25rem;
   }
 
-  #lName,
-#fName,
-#email,
-#phone:focus {
+  #contact input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
