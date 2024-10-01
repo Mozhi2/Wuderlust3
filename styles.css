@@ -1056,6 +1056,10 @@ select {
 
 }
 
+select{
+    width: 100%;
+}
+
 #nums label {
     display: flex;
     margin-top: 8px;
