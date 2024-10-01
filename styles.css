@@ -1121,11 +1121,11 @@ select {
     @media screen and (min-width: 1200px){
 
         header{
-            margin: 0;
-            padding: 0;
+
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            align-content: start;
+            justify-content: center;
+           
             
         }
 
@@ -1144,7 +1144,13 @@ select {
         }
 
         header nav{
-            grid-column: 3 / span 1;
+     
+        
+           
+            display: flex;
+                justify-content: center;
+            
+          
            
 
         }
@@ -1196,12 +1202,12 @@ select {
   */
 
    #intro{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-content: center;
-    gap: 0;
-
-   }
+    }
 
 
    #intro p{
