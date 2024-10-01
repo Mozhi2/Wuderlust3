@@ -660,7 +660,7 @@ h1{
     }
 
     
-    #menu-toggle:hover {
+    #menu-toggle label:hover {
         box-shadow: inset 5px 5px 15px var(--teal),
                     inset -5px -5px 15px var(--blue);
     }
@@ -696,6 +696,7 @@ h1{
      }
     #menu-toggle {
         position: relative;
+        margin-left: 2rem;
         
     }
 
@@ -988,12 +989,25 @@ select {
          }
 
 
+     
+          
           nav{
             display: flex;
-            
+            justify-content: flex-end;
+            gap: 0.5rem;
+           
+            margin: 20px;
+          }
+          nav ul{
+            display: flex;
+            justify-content: space-evenly;
           }
           
-          
+           nav ul li{
+            display: flex;
+            justify-content: space-evenly;
+           }
+               
 
         
             #menu-toggle label {
