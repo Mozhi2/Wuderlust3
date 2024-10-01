@@ -816,7 +816,7 @@ h1{
      }
     #menu-toggle {
         position: relative;
-        margin-left: 2rem;
+        
         
     }
 
@@ -841,7 +841,7 @@ h1{
         cursor: pointer;
         display: inline-block;
         padding: 20px;
-        
+        margin-left: 3rem;
         text-align: center;
       }
 
