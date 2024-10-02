@@ -1295,6 +1295,20 @@ input#mySubmit{
             
            }
 
+           nav a{
+            text-decoration:none;
+            text-align: center;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: var(--yellow);
+            color: var(--black);
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0.25rem;
+          
+            }
+          
+
 
         /*
 
