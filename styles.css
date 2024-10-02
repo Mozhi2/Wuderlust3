@@ -1290,16 +1290,10 @@ select{
             
         }
 
-        header nav{
-     
-        
+        header nav{      
            
             display: flex;
-                justify-content: center;
-            
-          
-           
-
+        
         }
 
         nav{
@@ -1307,7 +1301,7 @@ select{
             justify-content: flex-end;
             gap: 0.5rem;
             margin-left: auto; /* Pushes the nav to the right */
-            margin-bottom: auto;
+           
           }
           nav ul{
             display: flex;
@@ -1347,7 +1341,7 @@ select{
    }
        
   */
-
+/*
    #intro{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1367,7 +1361,67 @@ select{
     
 
    }
+    */
 
+    #intro {
+        display: grid; /* Enable flexbox */
+        grid-template-columns: repeat(6, 1fr);
+        align-content: center;
+        width: 80%;
+        height: 80%;
+    
+    }
+    
+    #intro h2{
+        grid-column: 2 / span 3;
+        text-align: left;
+        margin-left: 1rem;
+       
+        
+        
+    }
+    
+    #intro p{
+        grid-column: 2 / span 3;
+        text-align: left;
+        padding: 2rem;
+    
+    }
+    
+    #img-grid{
+        grid-column: 5/ span 2;
+    
+    }
+    
+    #intro > div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns */
+        grid-template-rows: auto auto;
+        /* Two rows */
+        gap: 15px;
+        /* Optional spacing between images */
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    
+    
+    #intro > div > img {
+        width: 100%;
+        /* Makes images responsive */
+        height: auto;
+        /* Maintains aspect ratio */
+        align-items: center;
+    }
+    
+    /* Place the third image to span the entire row */
+    #intro > div > picture {
+        grid-column: 1 / span 2;
+        /* Span across both columns */
+    }
+.radio-input{
+    width: 70%;
+}
 
 
 
