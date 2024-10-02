@@ -1059,9 +1059,7 @@ form
     font-size: 17px;
 }
 
-#nums input {
-    width: 100%;
-}
+
 
 fieldset input{
     width: 350%;
@@ -1071,7 +1069,7 @@ fieldset input{
 .radio-label {
     font-weight: normal;
     display: flex;
-    margin-left: 20px;
+    margin-left: 2rem;
 
 
 }
@@ -1080,9 +1078,9 @@ fieldset input{
 input,
 select {
     display: grid;
-    align-items: center;
     margin-bottom: 10px;
     align-items: center;
+    height: 2.25rem;
 
 }
 
@@ -1095,9 +1093,7 @@ select{
     margin-top: 8px;
 }
 
-#mySubmit{
-    margin-left: 20px;
-}
+
 
 
     footer{
@@ -1282,8 +1278,8 @@ select{
 
         header h1{
             grid-column: 2 / span 1;
-            margin: 0;
-            padding: 0;
+            margin: 3rem;
+           
         }
 
         header p{
