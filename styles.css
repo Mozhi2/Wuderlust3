@@ -1269,14 +1269,41 @@ input#mySubmit{
     }
 
     @media screen and (min-width: 1200px){
+        header{
+            display: grid;
+            align-items: center;
+        }
+
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+            margin-left: auto; /* Pushes the nav to the right */
+            
+           
+          }
+          nav ul{
+            display: flex;
+            justify-content: space-evenly;
+          }
+          
+           nav ul li{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin-left: 20px; /* Space between navigation items */
+            
+           }
+
+
+        /*
 
         header{
 
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            justify-content: center;
-           
-            
+            align-items: center;
+                     
         }
 
         header h1{
@@ -1304,6 +1331,7 @@ input#mySubmit{
             justify-content: flex-end;
             gap: 0.5rem;
             margin-left: auto; /* Pushes the nav to the right */
+            /*
            
           }
           nav ul{
@@ -1316,6 +1344,7 @@ input#mySubmit{
             list-style: none;
             padding: 0;
             margin-left: 20px; /* Space between navigation items */
+            /*
            }
 
    
