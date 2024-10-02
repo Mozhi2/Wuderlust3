@@ -1070,6 +1070,7 @@ fieldset input{
     font-weight: normal;
     display: flex;
     margin-left: 2rem;
+    margin-top: 0.5rem;
 
 
 }
@@ -1093,7 +1094,9 @@ select{
     margin-top: 8px;
 }
 
-
+input#mySubmit{
+    margin-right: 2rem;
+}
 
 
     footer{
@@ -1517,7 +1520,9 @@ select{
         #contact h3 {
             text-align: center;
         }
-    
+    .radio-label{
+        width: 250%;
+    }
     
         #nums {
             display: flex;
@@ -1550,7 +1555,7 @@ select{
     
     
         #nums fieldset input {
-            width: 100%;
+            width: 280%;
         }
       #travelTime, #destination input{
         width: 100%;
