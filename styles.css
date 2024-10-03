@@ -219,7 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#contact input:not(fieldset){
+#fName, #lName, #email, #phone, #travelTime, #destination{
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -233,7 +233,7 @@ table {
   }
 
 
-  #contact input:focus {
+  #fName, #lName, #email, #phone, #travelTime, #destination input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
@@ -1082,6 +1082,7 @@ select {
     margin-bottom: 10px;
     align-items: center;
     height: 2.25rem;
+    width: 100%;
 
 }
 
