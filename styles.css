@@ -674,16 +674,9 @@ h1{
     background-color: #ddd;
     color: black;
   }
-  /*
-  nav {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.5rem;
-    /*
-    align-items: center;
     */
-    /*
-  }
-*/
+
+
 
 
   nav a{
@@ -1146,8 +1139,6 @@ input#mySubmit{
             display: flex;
             justify-content: flex-end;
             gap: 0.5rem;
-           
-            margin: 20px;
           }
           nav ul{
             display: flex;
@@ -1279,7 +1270,7 @@ input#mySubmit{
             display: flex;
             justify-content: flex-end;
             gap: 0.5rem;
-            margin-left: auto; /* Pushes the nav to the right */
+            
             
            
           }
@@ -1292,22 +1283,11 @@ input#mySubmit{
             display: flex;
             list-style: none;
             padding: 0;
-            margin-left: 20px; /* Space between navigation items */
+            
             
            }
 
-           nav a{
-            text-decoration:none;
-            text-align: center;
-            padding: 1rem;
-            margin: 1rem 0;
-            background-color: var(--yellow);
-            color: var(--black);
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 0.25rem;
-          
-            }
+    
           
 
 
