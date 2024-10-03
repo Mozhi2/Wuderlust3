@@ -1277,7 +1277,7 @@ input#mySubmit{
             display: flex;
             justify-content: flex-end;
             gap: 0.5rem;
-            margin-right: auto; /* Pushes the nav to the right */
+            justify-content: center;
             
            
           }
