@@ -1557,22 +1557,17 @@ input#mySubmit{
        
         }
 
-      
-        #contact h3 {
-            text-align: center;
-        }
+   
     .radio-label{
         width: 250%;
     }
 
-    #travelTime, #destination{
+    #selects select{
         align-items: left;
         width: 150%;
     }
 
-    #selects label{
-        text-align: left;
-    }
+   
     
         #nums {
             display: flex;
@@ -1609,11 +1604,6 @@ input#mySubmit{
         }
      
 
-      #custom-select select{
-        align-items: left;
-        
-      }
-       
 
         footer p{
             text-align: left;
