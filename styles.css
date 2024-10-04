@@ -219,7 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#fName, #lName, #email, #phone, #travelTime, #destination{
+#fName, #lName, #email, #phone, #travelTime, #custom-select{
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -233,7 +233,7 @@ table {
   }
 
 
-  #fName, #lName, #email, #phone, #travelTime, #destination input:focus {
+  #fName, #lName, #email, #phone, #travelTime, #custom-select input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
@@ -851,7 +851,7 @@ h1{
     }
 
     #menu-toggle label{
-        margin: 1rem;
+       
        font-size: 16px;
     color: var(--black);
     background: linear-gradient(145deg, var(--yellow), var(--orange));
