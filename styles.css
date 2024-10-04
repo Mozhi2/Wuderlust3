@@ -1565,9 +1565,13 @@ input#mySubmit{
         width: 250%;
     }
 
-    #custom-select{
+    #travelTime, #destination{
         align-items: left;
-        width: 100%;
+        width: 150%;
+    }
+
+    #selects label{
+        text-align: left;
     }
     
         #nums {
