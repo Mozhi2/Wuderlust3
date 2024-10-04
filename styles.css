@@ -296,7 +296,7 @@ table {
 #custom-select{
     position: relative;
     grid-template-areas: "select";
-    align-items: center;
+    align-items: left;
     width: 100%;
     height: 2.25rem;
     min-width: 15ch;
@@ -1563,6 +1563,11 @@ input#mySubmit{
         }
     .radio-label{
         width: 250%;
+    }
+
+    #custom-select{
+        align-items: left;
+        width: 100%;
     }
     
         #nums {
