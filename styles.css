@@ -1599,7 +1599,8 @@ input#mySubmit{
             width: 280%;
         }
       #travelTime, #destination input{
-        width: 250%;
+        width: 150%;
+        align-items: left;
       }
 
       #custom-select{
