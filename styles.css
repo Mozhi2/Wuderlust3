@@ -1549,22 +1549,27 @@ input#mySubmit{
            
         }
     
-    
-        #contact {
+        #selects {
             display: grid;
-            gap: 20px;
             align-items: center;
-       
+    
         }
 
+        #selects label{
+            text-align: left;
+        }
+    
+        #travelTime {
+            width: 100%;
+        }
+    
+    
+        #destination {
+            width: 100%;
+        }
    
     .radio-label{
         width: 250%;
-    }
-
-    #selects select{
-        align-items: left;
-        width: 150%;
     }
 
    
@@ -1590,10 +1595,7 @@ input#mySubmit{
             display: flex;
         }
     
-    #selects label{
-        text-align: left;
-    }
-    
+  
         #names label {
             margin-right: 20px;
         }
