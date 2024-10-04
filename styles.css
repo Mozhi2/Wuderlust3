@@ -1143,7 +1143,7 @@ input#mySubmit{
           
           nav{
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             gap: 0.5rem;
           }
           nav ul{
