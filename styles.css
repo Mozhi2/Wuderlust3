@@ -219,7 +219,7 @@ table {
 
 /* ----- Custom Style for input----- */
 
-#fName, #lName, #email, #phone, #custome-select{
+#fName, #lName, #email, #phone{
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -233,7 +233,7 @@ table {
   }
 
 
-  #fName, #lName, #email, #phone, #custom-select input:focus {
+  #fName, #lName, #email, #phone input:focus {
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
       /* ...existing styles */
      
