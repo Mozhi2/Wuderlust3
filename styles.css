@@ -1563,12 +1563,16 @@ input#mySubmit{
         }
             */
     
+
+               #custom-select{
+                align-items: left;
+               }
         #travelTime {
             width: 150%;
         }
     
     
-        #destination {
+        #destination  {
             width: 150%;
         }
    
