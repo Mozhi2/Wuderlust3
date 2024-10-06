@@ -1601,6 +1601,7 @@ input#mySubmit{
             text-align: left;
         }
     */
+    /*
     #contact {
         display: grid;
         gap: 20px;
@@ -1619,11 +1620,12 @@ input#mySubmit{
             display: flex;
         }
     
-        /*input,
+        */
+
 select {
     display: grid;
     margin-bottom: 10px;
-    align-items: center;
+    align-items: left;
     height: 2.25rem;
     width: 100%;
 
@@ -1632,7 +1634,7 @@ select {
 select{
     width: 100%;
 }
-    */
+    
   
         #names label {
             margin-right: 20px;
