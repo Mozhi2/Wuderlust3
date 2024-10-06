@@ -1548,6 +1548,7 @@ input#mySubmit{
             font-family: "Montserrat";
            
         }
+        /*
     
       form{
         display: grid;
@@ -1557,11 +1558,11 @@ input#mySubmit{
       #selects label{
         text-align: left;
       }
-/*
+
         #selects label{
             text-align: left;
         }
-            */
+            
     
 
                select{
@@ -1575,6 +1576,7 @@ input#mySubmit{
         #destination  {
             width: 150%;
         }
+            */
    
     .radio-label{
         width: 250%;
@@ -1592,13 +1594,13 @@ input#mySubmit{
             display: flex;
             flex-direction: column;
         }
-    
+    /*
         #selects {
             display: flex;
             flex-direction: column;
             text-align: left;
         }
-    
+    */
         fieldset {
             display: flex;
         }
