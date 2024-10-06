@@ -1601,10 +1601,38 @@ input#mySubmit{
             text-align: left;
         }
     */
+    #contact {
+        display: grid;
+        gap: 20px;
+        align-items: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+    }
+
+    #selects {
+        display: flex;
+        flex-direction: column;
+    }
         fieldset {
             display: flex;
         }
     
+        /*input,
+select {
+    display: grid;
+    margin-bottom: 10px;
+    align-items: center;
+    height: 2.25rem;
+    width: 100%;
+
+}
+
+select{
+    width: 100%;
+}
+    */
   
         #names label {
             margin-right: 20px;
