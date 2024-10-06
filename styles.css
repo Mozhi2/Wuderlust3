@@ -1549,7 +1549,14 @@ input#mySubmit{
            
         }
     
-      
+      form{
+        display: grid;
+        align-items: center;
+      }
+
+      #selects label{
+        text-align: left;
+      }
 /*
         #selects label{
             text-align: left;
