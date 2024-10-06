@@ -1549,23 +1549,20 @@ input#mySubmit{
            
         }
     
-        #selects {
-            display: grid;
-            align-items: center;
-    
-        }
-
+      
+/*
         #selects label{
             text-align: left;
         }
+            */
     
         #travelTime {
-            width: 100%;
+            width: 150%;
         }
     
     
         #destination {
-            width: 100%;
+            width: 150%;
         }
    
     .radio-label{
