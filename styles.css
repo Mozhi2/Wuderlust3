@@ -385,6 +385,10 @@ h1 {
 }
 
 
+h1, h2, h3, h4, p{
+    max-width: 800px;
+}
+
 h1,
 h2,
 h3 {
@@ -405,19 +409,19 @@ form {
 h2 {
     font-size: 1.5rem;
     margin: 1rem 0;
+    font-weight: bold;
+    text-align: center;
 
 }
 
 h3 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
-}
-
-h2,
-h3 {
     font-weight: bold;
     text-align: center;
 }
+
+
 
 h4 {
     font-size: 1.15rem;
