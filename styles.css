@@ -1564,8 +1564,8 @@ input#mySubmit{
             */
     
 
-               #custom-select{
-                align-items: left;
+               select{
+                display: grid;
                }
         #travelTime {
             width: 150%;
