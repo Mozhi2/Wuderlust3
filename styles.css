@@ -296,7 +296,7 @@ table {
 #custom-select{
     position: relative;
     grid-template-areas: "select";
-    align-items: left;
+   
     width: 100%;
     height: 2.25rem;
     min-width: 15ch;
@@ -1625,7 +1625,7 @@ input#mySubmit{
 select {
     display: grid;
     margin-bottom: 10px;
-    align-items: left;
+    
     height: 2.25rem;
     width: 100%;
 
